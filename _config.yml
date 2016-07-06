@@ -1,4 +1,4 @@
-title:            Site Title
+title:            Hassan Ali
 description:      Describe your website here.
 disqus_shortname: 
 reading_time:     true
@@ -9,16 +9,16 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  name:           Hassan Ali
+  avatar:         my-picture.png
+  bio:            "Frontend Engineer"
+  email:          helfi92@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         https://github.com/helfi92
   stackexchange:  
-  linkedin:       
+  linkedin:       hassan-ali-6132468a        
   instagram:      
   flickr:         
   tumblr:         
