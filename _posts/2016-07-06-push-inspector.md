@@ -10,7 +10,7 @@ image:
   creditlink: 
 ---
 
-Whenever a Mozilla employee or contributor pushes a build to a server, they go to the treeherder interface to see and inspect the results of their build. The TaskCluster team decided to come up with a "developer-focused" treeherder interface and was later called Task Group Inspector. 
+Whenever a Mozilla employee or contributor pushes a build to a server, they go to the Treeherder interface to see and inspect the results of their build. The TaskCluster team decided to come up with a "developer-focused" interface and was later called Task Group Inspector. 
 
 ![alt text](/images/push-inspector/task-group-inspector.png)
 
