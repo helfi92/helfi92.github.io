@@ -76,6 +76,12 @@ svg:not(:root) {
   overflow: hidden; 
 }
 
+.center-image-video {
+  display: block;
+  margin: 3px auto;
+  max-width: 100%;
+}
+
 /* 
    Buttons
    ========================================================================== */
