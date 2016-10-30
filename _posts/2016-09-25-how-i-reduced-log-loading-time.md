@@ -28,15 +28,15 @@ xhr.addEventListener('load', () => update(xhr.response)); // xhr.response is not
 
 To explain what's happening in the code above, we have a buffer that fires the `progress` event whenever new data comes and later triggers the `load` event when all data have been transmitted. For both events handlers, there is a call to an anonymous function stored in `update`. The `update` function makes a quick check on `response` before proceeding with the execution. If `response` is empty, it returns.
 
-Note that `progress` gives a value of `undefined` as a paramter to `update`, since `xhr.response` is `null` when dealing with array buffers [1]. `onload` gives a response with a value i.e., not `undefined`. This code was generating major performance issues. This problem can happen when many events are being triggered and a bunch of function calls are being made as a result of those events.
+Note that `progress` gives a value of `undefined` as a parameter to `update`, since `xhr.response` is `null` when dealing with array buffers [1]. `load` gives a response with a value i.e., not `undefined`. This code was generating performance issues. This problem can happen when many events are being triggered and a bunch of function calls are being made as a result of those events.
 
 JavaScript has a concurrency model based on "event loop". This can be represented by the following:
 
-* Stack (function calls form a stack of frames)
-* Queue (A runtime containing a message queue. messages are added any time an event occurs and there is an event listener attached to it)
+* Stack (Functions)
+* Queue (Events)
 * Heap (Objects are allocated in a heap)
 
-Let me grab your attention on the Stack and Queue. You can ignore the heap for now. A queue adds a message any time an event occurs and there is an event listener attached to it. To continue, whenever there is a function call, a layer gets added to stack. The catch here is that **a message from the queue cannot be processed unless the stack is empty.** Since `onprogress` was being called many times, it was initiating a call to `update`, which was adding many layers to the stack, hence causing performance issues.
+Let me grab your attention on the Stack and Queue. You can ignore the heap for now. A queue adds a message any time an event occurs and there is an event listener attached to it. To continue, whenever there is a function call, a layer gets added to the stack. The catch here is that **a message from the queue cannot be processed unless the stack is empty.** This means if you have a script that takes a while to execute for example, any events that happen won’t run until the script is done. Since `progress` was being called many times, it was initiating a call to `update`, which was adding many layers to the stack, hence causing performance issues.
 
 ### Solution
 The solution is quite simple. When you want your events to be processed fast, make sure your function stack stays as clean as possible or else they will have to wait until all functions on the stack are fully executed.
