@@ -36,12 +36,12 @@ Push Inspector is a react project written from scratch, removing all limitations
 
 
 <video class="center-image-video" width="560" height="315" controls>
-  <source src="../assets/images/videos/push-inspector/progressBar.mp4" type="video/mp4">
+  <source src="/assets/images/videos/push-inspector/progressBar.mp4" type="video/mp4">
  	Your browser does not support the video tag.
 </video> 
 <b>
 <video class="center-image-video" width="560" height="315" controls>
-  <source src="../assets/images/videos/push-inspector/authAndActions.mp4" type="video/mp4">
+  <source src="/assets/images/videos/push-inspector/authAndActions.mp4" type="video/mp4">
  	Your browser does not support the video tag.
 </video>
 
