@@ -12,7 +12,7 @@ image:
 
 Whenever a Mozilla employee or contributor pushes a build to a server, they go to the Treeherder interface to see and inspect the results of their build. The TaskCluster team decided to come up with a "developer-focused" interface and was later called Task Group Inspector. 
 
-![alt text](/images/push-inspector/task-group-inspector.png)
+![task group inspector](/assets/images/push-inspector/task-group-inspector.png)
 
 
 The Inspector does a decent job inspecting a build, however it's still missing some important features.
@@ -36,12 +36,12 @@ Push Inspector is a react project written from scratch, removing all limitations
 
 
 <video class="center-image-video" width="560" height="315" controls>
-  <source src="../images/videos/push-inspector/progressBar.mp4" type="video/mp4">
+  <source src="../assets/images/videos/push-inspector/progressBar.mp4" type="video/mp4">
  	Your browser does not support the video tag.
 </video> 
 <b>
 <video class="center-image-video" width="560" height="315" controls>
-  <source src="../images/videos/push-inspector/authAndActions.mp4" type="video/mp4">
+  <source src="../assets/images/videos/push-inspector/authAndActions.mp4" type="video/mp4">
  	Your browser does not support the video tag.
 </video>
 

@@ -22,8 +22,12 @@ const update = (response) => {
 
 xhr.responseType = 'arraybuffer';
 xhr.overrideMimeType('text/plain; charset=utf-8');
-xhr.addEventListener('progress', () => update(xhr.response)); // xhr.response will be null on a progress event [1]
-xhr.addEventListener('load', () => update(xhr.response)); // xhr.response is not null
+
+// xhr.response will be null on a progress event [1]
+xhr.addEventListener('progress', () => update(xhr.response));
+
+// xhr.response is not null
+xhr.addEventListener('load', () => update(xhr.response));
 ```
 
 To explain what's happening in the code above, we have a buffer that fires the `progress` event whenever new data comes and later triggers the `load` event when all data have been transmitted. For both events handlers, there is a call to an anonymous function stored in `update`. The `update` function makes a quick check on `response` before proceeding with the execution. If `response` is empty, it returns.
