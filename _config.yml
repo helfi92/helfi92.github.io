@@ -2,7 +2,7 @@ name: Hassan Ali
 meta_description: "Open Source, Blogging about technology"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 avatar: https://s.gravatar.com/avatar/dae0df6c0200723ea430c45900e6a7bc?s=200
 twitter: https://twitter.com/helfiwalcott
 logo: false
