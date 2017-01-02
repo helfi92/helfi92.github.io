@@ -8,6 +8,9 @@ The current Treeherder logviewer is great, but It has a number of deficiencies. 
 
 The Unified Logviewer is a tool created to replace Treeherder’s and Taskcluster's logviewer. It is a stand alone project written in React/Redux.
 
+![Unified Logviewer](/assets/images/log-viewer/unified-logviewer.png)
+*The Unified Logviewer embedded inside Treeherder*{: .img-caption }
+
 ## Features
 1. Handles 100M+ log files. By downloading the file as an array buffer, we can get a fast download without doing a parse of all the data, which is what crashes the browser normally. We use the scrollbar position to identify which portion of the array buffer to parse and display on the screen.
 2. Renders ANSI colors.
