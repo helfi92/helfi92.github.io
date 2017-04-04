@@ -45,6 +45,5 @@ Push Inspector is a react project written from scratch, removing all limitations
  	Your browser does not support the video tag.
 </video>
 
-
 ### Where are we at with the new interface?
 Most of the functionalities are implemented and I pushed the first pull request of Push Inspector. Once that is done, some time will be spent fixing the UI and probably add the option of receiving push notifications when a test fails or when a build is done. More updates to come soon. 

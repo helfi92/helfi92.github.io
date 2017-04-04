@@ -2,7 +2,7 @@
 layout: post
 title: Code Splitting for React Router with Webpack and HMR
 description: "Code Splitting for React Router with Webpack and HMR"
-modified: 2016-06-01T15:27:45-04:00
+modified: 2017-04-01T15:27:45-04:00
 tags: [taskcluster, neutrino, react, webpack, router]
 ---
 In this guide we’ll create a [starter application](https://github.com/mozilla-neutrino/react-router-starter) that uses routes with code splitting.
