@@ -5,19 +5,19 @@ description: "Code Splitting for React Router with Webpack and HMR"
 modified: 2016-06-01T15:27:45-04:00
 tags: [taskcluster, neutrino, react, webpack, router]
 ---
-In this guide we’ll create a starter application that uses routes with code splitting.
+In this guide we’ll create a [starter application](https://github.com/mozilla-neutrino/react-router-starter) that uses routes with code splitting.
 
 ![Cover](/assets/images/code-splitting/cover-picture.jpeg)
 
 For big web apps, it’s not efficient to put all of your code into a single file. Large apps should only download the JavaScript required to boot the app. We want to be able to break a single file into many fragments. Splitting your code into multiple chunks is what we refer to as “code splitting”. Chunks will be loaded as the user navigates around.
-Neutrino, will be used to see how we can achieve code splitting with React, Webpack, and React Router. Neutrino is an awesome tool that harnesses the power of Webpack to let you create and build modern JavaScript applications with zero initial configuration. It works by allowing us to inject shared presets or configurations. We will be using the React preset. The latter requires you to be on Node.js v6.9+. According to the Neutrino documentation, the React preset features:
+[Neutrino](https://neutrino.js.org/), will be used to see how we can achieve code splitting with React, Webpack, and React Router. Neutrino is an awesome tool that harnesses the power of Webpack to let you create and build modern JavaScript applications with zero initial configuration. It works by allowing us to inject shared presets or configurations. We will be using the React preset. The latter requires you to be on Node.js v6.9+. According to the [Neutrino documentation](https://neutrino.js.org/presets/neutrino-preset-react/), the React preset features:
 
 - Modern Babel compilation supporting ES modules, last 2 major browser versions, async functions, and dynamic imports
 - Support for import CSS, HTML, images, fonts, and icons
 - Tree-shaking to create smaller bundles
 - Hot Module Replacement, no HTML templating, and much more
 
-The entire source code of this post is available on GitHub. Without further ado, let’s get started.
+The entire source code of this post is [available on GitHub](https://github.com/mozilla-neutrino/react-router-starter). Without further ado, let’s get started.
 First, we need a directory to start working from. From your terminal, create a new directory and change into it. Then we are going to install `neutrino`, `neutrino-preset-react` and `react-hot-loader` as development dependencies. We will also need `react`, `react-dom` and `react-router-dom` for actual React development. `react-hot-loader@3.0.0-beta-6` is the latest version at the time of this write-up.
 
 ```bash
@@ -236,5 +236,5 @@ The React preset builds static assets to the build directory by default.
 
 ![Building](/assets/images/code-splitting/building.png)
 
-To conclude, we used Neutrino to roll up a React application and split our code into multiple chunks. We also incorporated HMR to inject updated modules without reloading the page. See react-router-starter for the complete code.
+To conclude, we used [Neutrino](https://github.com/mozilla-neutrino/neutrino-dev) to roll up a React application and split our code into multiple chunks. We also incorporated HMR to inject updated modules without reloading the page. See [react-router-starter](https://github.com/mozilla-neutrino/react-router-starter) for the complete code.
 
