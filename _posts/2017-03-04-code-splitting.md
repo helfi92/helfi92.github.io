@@ -5,8 +5,9 @@ description: "Code Splitting for React Router with Webpack and HMR"
 modified: 2016-06-01T15:27:45-04:00
 tags: [taskcluster, neutrino, react, webpack, router]
 ---
-![Cover](/assets/images/code-splitting/cover-picture.jpeg)
 In this guide we’ll create a starter application that uses routes with code splitting.
+
+![Cover](/assets/images/code-splitting/cover-picture.jpeg)
 
 For big web apps, it’s not efficient to put all of your code into a single file. Large apps should only download the JavaScript required to boot the app. We want to be able to break a single file into many fragments. Splitting your code into multiple chunks is what we refer to as “code splitting”. Chunks will be loaded as the user navigates around.
 Neutrino, will be used to see how we can achieve code splitting with React, Webpack, and React Router. Neutrino is an awesome tool that harnesses the power of Webpack to let you create and build modern JavaScript applications with zero initial configuration. It works by allowing us to inject shared presets or configurations. We will be using the React preset. The latter requires you to be on Node.js v6.9+. According to the Neutrino documentation, the React preset features:
