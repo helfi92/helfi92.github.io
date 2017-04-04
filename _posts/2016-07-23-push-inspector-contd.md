@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Push Inspector Update
-description: "Push Inspector Update"
+title: Push Inspector
+description: "Push Inspector"
 modified: 2016-07-01T15:27:45-04:00
 tags: [taskcluster, pushinspector, react]
 image:
