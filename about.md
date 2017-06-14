@@ -1,18 +1,31 @@
 ---
 layout: page
-title: About me 
+title: About 
 ---
-I’m passionate about what I do, and I love to help people. Nothing is more rewarding than being part of a team that shares similar interests and an organization that values its employees. I’m currently interested in front end development, reactive functional programming (RFP) and UI architecture. When I’m not working, I’m continually taking action to learn and apply new things through books, blogs, podcasts, and conferences.
-I'm [@hassanhelfi](https://twitter.com/hassanhelfi) on Twitter.
+My name is Hassan Ali & I'm a front end engineer.
 
-```javascript
-> Hassan.origin
-=> "Montreal, QC"
-> Hassan.interests
-=> ["Code", "Design", "sports", "music", "coffee"]
-```
-
-## 3 Random Facts About Me
-1. Soccer is my favorite sport
-2. I’m left-handed, right-footed 
-3. I’m a morning person
+<div style="margin-top:30px;" class="console-container"></div>
+<div style="" class="console">
+   &gt; Hassan.origin<br>
+   <span class="answer">=&gt; "Montreal, QC"</span><br><br>
+   &gt; Hassan.education<br>
+   <span class="answer">=&gt; "McGill University"</span><br><br>
+   &gt; Hassan.major<br>
+   <span class="answer">=&gt; "Computer Engineering"</span><br><br>
+   &gt; Hassan.interests<br>
+   <span class="answer">=&gt; ["Code", "Design", "sports", "music", "coffee"]</span><br><br>
+   &gt; Hassan.workExperience.latest<br>
+   <span class="answer">=&gt; "Mozilla"</span><br><br>
+   &gt; Hassan.resume<br>
+   <span id="resume" class="answer">=&gt; "<a target="_blank" href="https://www.dropbox.com/s/5vlx8c5nbwfksok/hassanali.pdf?dl=0">hassanali.pdf</a>"</span><br><br>
+   &gt; Hassan.email<br>
+   <span class="answer">=&gt; "<a target="_blank" href="mailto:hassan.ali@mail.mcgill.ca">hassan.ali@mail.mcgill.ca</a>"</span><br><br>
+   &gt; Hassan.github<br>
+   <span class="answer">=&gt; "<a target="_blank" href="https://github.com/helfi92">github.com/helfi92</a>"</span><br><br>
+   &gt; Hassan.twitter<br>
+   <span class="answer">=&gt; "<a target="_blank" href="https://twitter.com/hassanhelfi">twitter.com/hassanhelfi</a>"</span><br><br>
+   &gt; Hassan.medium<br>
+   <span class="answer">=&gt; "<a target="_blank" href="https://medium.com/@hassanhelfi">medium.com/@hassanhelfi</a>"</span><br><br>
+   &gt; Hassan.linkedin<br>
+   <span class="answer">=&gt; "<a target="_blank" href="https://www.linkedin.com/in/hassan-ali-6132468a/">linkedin.com/in/hassan-ali-6132468a</a>"</span><br><br>
+</div>

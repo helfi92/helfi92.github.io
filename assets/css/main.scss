@@ -12,3 +12,35 @@
 @import
 	"syntax"
 ;
+
+.console-container {
+    border-radius: 10px;
+    margin: 0 auto;
+    background: #ccc;
+    height: 50px;
+    color: #fafafa;
+    margin-bottom: -20px;
+}
+
+.console {
+    padding: 4%;
+    color: #ccc;
+    font-family: 'Monaco', 'Courier New';
+    line-height: 20px;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #383737;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.console a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.console a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
