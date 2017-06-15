@@ -9,10 +9,10 @@ logo: false
 disqus: true
 paginate: 15
 baseurl: /
-domain_name: 'https://helfi92.github.io/'
+domain_name: 'http://hassanali.me'
 google_analytics: 'UA-81712137-1'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'https://helfi92.github.io/'
+url:            'https://helfi92.github.io'
 author:         'Hassan Ali'
