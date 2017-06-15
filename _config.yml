@@ -6,6 +6,7 @@ highlighter: rouge
 avatar: https://s.gravatar.com/avatar/dae0df6c0200723ea430c45900e6a7bc?s=200
 twitter: https://twitter.com/hassanhelfi
 logo: false
+disqus: true
 paginate: 15
 baseurl: /
 domain_name: 'https://helfi92.github.io/'
