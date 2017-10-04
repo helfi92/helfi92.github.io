@@ -16,10 +16,8 @@ My name is Hassan Ali & I'm a front end engineer.
    <span class="answer">=&gt; ["Code", "Design", "sports", "music", "coffee"]</span><br><br>
    &gt; Hassan.workExperience.latest<br>
    <span class="answer">=&gt; "Mozilla"</span><br><br>
-   &gt; Hassan.resume<br>
-   <span id="resume" class="answer">=&gt; "<a target="_blank" href="https://www.dropbox.com/s/5vlx8c5nbwfksok/hassanali.pdf?dl=0">hassanali.pdf</a>"</span><br><br>
    &gt; Hassan.email<br>
-   <span class="answer">=&gt; "<a target="_blank" href="mailto:hassan.ali@mail.mcgill.ca">hassan.ali@mail.mcgill.ca</a>"</span><br><br>
+   <span class="answer">=&gt; "haali-at-mozilla.com"</span><br><br>
    &gt; Hassan.github<br>
    <span class="answer">=&gt; "<a target="_blank" href="https://github.com/helfi92">github.com/helfi92</a>"</span><br><br>
    &gt; Hassan.twitter<br>
@@ -28,4 +26,7 @@ My name is Hassan Ali & I'm a front end engineer.
    <span class="answer">=&gt; "<a target="_blank" href="https://medium.com/@hassanhelfi">medium.com/@hassanhelfi</a>"</span><br><br>
    &gt; Hassan.linkedin<br>
    <span class="answer">=&gt; "<a target="_blank" href="https://www.linkedin.com/in/hassan-ali-6132468a/">linkedin.com/in/hassan-ali-6132468a</a>"</span><br><br>
+   
+   [comment]: <> (&gt; Hassan.resume<br>)
+   [comment]: <> (<span id="resume" class="answer">=&gt; "<a target="_blank" href="https://www.dropbox.com/s/5vlx8c5nbwfksok/hassanali.pdf?dl=0">hassanali.pdf</a>"</span><br><br>)
 </div>
