@@ -5,13 +5,12 @@ description: "Introducing the Provisioner Explorer"
 modified: 2017-10-01T15:27:45-04:00
 tags: [taskcluster, neutrino, react, experience]
 ---
-![Cover](/assets/images/provisioner-explorer/cover.png)
-
 For the past 3 months, I've been working on a new tool - long awaited - now known
 as the [Provisioner Explorer](https://tools.taskcluster.net/provisioners/). This
 is my first time as a Mozillian to own a complete project, coding both the
 front and back ends.
 
+![Cover](/assets/images/provisioner-explorer/cover.png)
 
 ## Tools used
 
