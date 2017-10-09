@@ -16,7 +16,7 @@ front and back ends.
 
 The front end is coded in React. Also, Neutrino is used to take care of
 the initial configurations. If this is your first time hearing about
-Neutrino, you should definitely check it out. Neutrino is a command-line
+Neutrino, you should definitely [check it out](https://neutrino.js.org/). Neutrino is a command-line
 tool that wraps Webpack in order to support building JavaScript projects
 based on shared configuration presets and middleware.
 
@@ -42,13 +42,13 @@ Allow me to share two of those with you:
 ### Amortized analysis
  
 In my particular situation, I had a buffer implementation of an array where I was
-implementing its `push`, `pop`, and `shift` methods. When the buffer becomes full,
+implementing its `push` and `pop` methods. When the buffer becomes full,
 one needs to perform a reallocation of memory and this is an expensive operation
 since you have to move every entry to its new memory location. A similar analogy
 applies when removing elements. How do we decide how much memory to allocate?
 There is a trade-off between space and time. It turns out that by doubling the
 array size every time we reallocate, `push()` has an amortized complexity of
-`O(1)`. Similarly for `pop` and `shift`, if we reallocate the array when less than a third of
+`O(1)`. Similarly for `pop`, if we reallocate the array when less than a third of
 the array is used, we will have an amortized complexity of `O(1)`. Amortized Analysis
 is used for algorithms where occasionally, there will be an operation that is very
 slow, however most of the other operations are faster.
