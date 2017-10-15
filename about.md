@@ -26,7 +26,4 @@ My name is Hassan Ali & I'm a front end engineer.
    <span class="answer">=&gt; "<a target="_blank" href="https://medium.com/@hassanhelfi">medium.com/@hassanhelfi</a>"</span><br><br>
    &gt; Hassan.linkedin<br>
    <span class="answer">=&gt; "<a target="_blank" href="https://www.linkedin.com/in/hassan-ali-6132468a/">linkedin.com/in/hassan-ali-6132468a</a>"</span><br><br>
-   
-   [comment]: <> (&gt; Hassan.resume<br>)
-   [comment]: <> (<span id="resume" class="answer">=&gt; "<a target="_blank" href="https://www.dropbox.com/s/5vlx8c5nbwfksok/hassanali.pdf?dl=0">hassanali.pdf</a>"</span><br><br>)
 </div>
