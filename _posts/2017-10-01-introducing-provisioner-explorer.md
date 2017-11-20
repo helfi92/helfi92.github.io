@@ -2,7 +2,6 @@
 layout: post
 title: Introducing the Provisioner Explorer
 description: "Introducing the Provisioner Explorer"
-modified: 2017-10-01T15:27:45-04:00
 tags: [taskcluster, neutrino, react, experience]
 ---
 For the past 3 months, I've been working on a new tool - long awaited - now known
