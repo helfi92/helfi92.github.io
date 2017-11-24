@@ -71,6 +71,7 @@ a9c8a1d First commit in my-feature
 
 _Note: The second commit no longer has the same SHA-1 hash. That's because we rewrote history._
 
+**important**: Squashing multiple commits from multiple authors will have each author's attributions lost (except for the author of the last commit). If you find yourself in this scenario, commits, in my opinion, should not be squashed. If you're dealing with open source projects, squashing might discourage external contributors from continuing to contribute.
 
 ## Pushing changes
 When you push your changes to a remote server after rewriting history, Git will prevent you from pushing if the
