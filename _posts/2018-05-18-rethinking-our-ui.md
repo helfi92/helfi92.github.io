@@ -71,13 +71,15 @@ We decided to add a GraphQL layer that sits on top of our APIs to help improve t
 ### Why GraphQL?
 Here's a couple of reasons:
 
-* Low latency
+* Reduced bandwidth
 * Declarative
 * Self documented
 
-#### Low latency
+#### Reduced Bandwidth
 With GraphQL, a view can get all of its data in a single round trip.
-Moreover, the response contains only what the view needs, hence less data transferred over the wire. 
+Moreover, the response contains only what the view needs, hence less data transferred over the wire.
+On the downside, since the GraphQL layer will sit on top of our APIs instead of supporting them natively,
+the latency will be slightly higher than before.
 
 #### Declarative
 With GraphQL you define what you want, not how you get it.
